@@ -9,6 +9,7 @@ namespace DataAccessLayer.Models
 {
     public class Product
     {        
+        public string ImgUrl { get; set; }
         public int Id { get; set; }
 
         public string Name { get; set; }
