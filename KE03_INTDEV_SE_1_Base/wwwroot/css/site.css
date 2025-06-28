@@ -84,6 +84,7 @@ body {
 
 .buy-button {
     background-color: #00ff00;
+    text-align: right;
     color: white;
     border: none;
     padding: 0.1rem 0.8rem;
