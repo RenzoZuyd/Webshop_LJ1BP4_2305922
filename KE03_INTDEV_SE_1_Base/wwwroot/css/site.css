@@ -94,17 +94,31 @@ body {
     transition: background-color 0.2s ease;
 }
 
-    .buy-button:hover {
+.buy-button:hover {
         background-color: #0056b3;
-    }
+}
 
-    .product-card h3 {
+.product-card h3 {
         margin: 0 0 10px;
         font-size: 1.5em;
-    }
+}
 
-    .product-card .price {
+.product-card .price {
         font-weight: bold;
         color: #2c7;
         margin-top: 10px;
-    }
+}
+
+.icons-topright {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}

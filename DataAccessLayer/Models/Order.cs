@@ -18,5 +18,7 @@ namespace DataAccessLayer.Models
         public Customer Customer { get; set; } = null!;
 
         public ICollection<Product> Products { get; } = new List<Product>();
+
+        public ICollection<Part> Parts { get; } = new List<Part>();
     }
 }
