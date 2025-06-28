@@ -8,6 +8,11 @@ namespace DataAccessLayer.Models
 {
     public class Part
     {
+
+        public string ImgUrl { get; set; }
+
+        public decimal Price { get; set; }
+
         public int Id { get; set; }
 
         public string Name { get; set; }
